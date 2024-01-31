@@ -3,7 +3,7 @@ Kjell is a cross-platform scripting language for text manipulation
 
 ## Examples
 
-```sh
+```bash
 # Output all lines that contain "banana" in the input stream
 cat input.txt | kj '/banana/' 
 ```
