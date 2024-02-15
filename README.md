@@ -20,10 +20,10 @@ Also, if the single tool is portable it means it will work the same anywhere; fo
 
 Under the hood, Jet is a statically typed functional programming language. All Jet programs should have the function signature `(List String) -> a`.
 
-Having Kjell being a statically typed langauge brings certain benefits:
+Having Jet being a statically typed langauge brings certain benefits:
 
  - Incorrect programs will not start, as opposed to crashing in the middle of a long run
- - As Kjell doesn't allow recursive definitions it is *total*, ie if the program compiles it will never crash or hang
+ - As Jet doesn't allow recursion it is *total*, ie if the program compiles it will never crash or hang
  - Type inference allows automatic coercion of input arguments and automatic generation of help messages 
 
 ## Safety
